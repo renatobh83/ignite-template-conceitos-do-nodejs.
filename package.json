@@ -4,8 +4,9 @@
   "main": "src/server.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon",
-    "test": "jest"
+    "dev": "nodemon src/server.js",
+    "test": "jest --watch",
+    "start": "node src/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
